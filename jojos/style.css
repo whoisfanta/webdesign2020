@@ -1,0 +1,98 @@
+body {
+	background-color: #f2f2f2;
+}
+
+.hello { /*estiliza texto de banner*/
+	text-align: center;
+	font-size: 120px;
+	font-family: Impact;
+	color: #ffffff;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000000;
+}
+
+.gentext { /*estiliza texto "geral"*/
+text-align: center;
+line-height: 1.6;
+font-size: 25px;
+font-family: Times New Roman;
+}
+
+.fancy { /*estiliza texto mais importante*/
+	text-align: center;
+	line-height: 1.6;
+	font-size: 50px;
+	font-family: Times New Roman;
+	font: bold;
+	font-style: italic;
+}
+
+.captext { /*estiliza legendas*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Times New Roman;
+	font-size: 15px;
+}
+
+.center { /*estiliza imagens centradas sem moldura*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.framecenter { /*aplica moldura em imagens que serão centradas*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #000000;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+/*tentativa de limitar o espaço "clicável" de um link - sucesso :)*/
+.limitin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.limitout {
+	display: inline-block;
+	border: 3px solid #000000;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+h1 {/*muda propriedades do tag h1*/
+	text-align: center;
+	line-height: 1.6;
+	font-family: Times New Roman;	
+
+}
+
+.frame { /*aplica moldura em imagens não centradas*/
+	border: 3px solid #000000;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+/*imagens em "mosaico"*/ 
+.column {
+	float: left;
+	padding: 35px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+figcaption {
+	text-align: center;
+}
+
+.music {
+	display: none;
+}
